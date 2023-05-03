@@ -1,0 +1,12 @@
+build periodically---
+its used to schedule the jobs using cron syntax
+we can schedule jobs like everyday, everyhour, particular month, particular day
+Also the developer commits or doesn't commits the build will triggered automatically
+
+poll scm ----
+its used, when the developer is working from mrg 9 to evg 5 
+whenever he commits during this particular time then only build will be trigged 
+
+webhooks---
+by using webhooks, Build will be automatically trigged, whenever changes are made and commits the file
+we need to enable the webhook in github settings and jenkins confire under build trigger  
